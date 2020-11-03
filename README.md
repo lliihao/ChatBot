@@ -24,7 +24,7 @@
 	cd ChatBot
 
 
-### 在本地主机上打开chatbot：
+### 在本地主机上打开ChatBot：
 
 	打开index.html
 
