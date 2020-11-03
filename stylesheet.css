@@ -1,0 +1,12 @@
+#main{
+    display: block;
+    position:relative;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0 auto;
+    width:300px;
+    height:600px;
+    padding:30px;
+    background-color:#8bf8a9;
+    border-radius:66px;
+}

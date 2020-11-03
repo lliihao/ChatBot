@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>聊天机器人</title>
+        <link rel="shortcut icon" href="favicon.ico" type="images/x-icon"/>
+        <link rel="stylesheet" href="stylesheet.css"/>
+        <script type="text/javascript" src="logic.js" charset="UTF-8"></script>
+    </head>
+    <body>
+        <div id="main">
+            <h1>ChatBot</h1>
+            <form action="javascript:search();" >
+              请在此输入你的话：
+                <input type="text" id="msgs"  /> <!--这里用onblur可能操作更顺手-->
+                <br/><br/>
+                <input type="submit" value="点击发送" /> <!--这里可以写type="button"  onclick="search()"-->
+           </form>
+           <br/>
+           <div>回答：<br/><span id="content">对方正在等你输入......</span></div>
+        </div>
+    </body>
+</html>
